@@ -1199,7 +1199,7 @@ const HomePage = () => {
                       placeholder="John Doe"
                       value={formData.name}
                       onChange={(e) => setFormData({...formData, name: e.target.value})}
-                      className="w-full pl-12 pr-4 py-4 border border-gray-200 rounded-2xl group-hover:border-emerald-300 focus:ring-2 focus:ring-emerald-400 focus:border-transparent transition-all duration-300 bg-white/60 focus:bg-white"
+                      className="w-full pl-12 pr-4 py-4 border border-gray-200 rounded-2xl group-hover:border-emerald-300 focus:ring-2 focus:ring-emerald-400 focus:border-transparent transition-all duration-300 bg-white/60 focus:bg-white placeholder:text-gray-500 placeholder:font-normal"
                       required
                     />
                     <div className="absolute inset-0 border border-emerald-400/0 group-hover:border-emerald-400/10 rounded-2xl pointer-events-none transition-colors duration-300"></div>
@@ -1221,7 +1221,7 @@ const HomePage = () => {
                       placeholder="you@example.com"
                       value={formData.email}
                       onChange={(e) => setFormData({...formData, email: e.target.value})}
-                      className="w-full pl-12 pr-4 py-4 border border-gray-200 rounded-2xl group-hover:border-emerald-300 focus:ring-2 focus:ring-emerald-400 focus:border-transparent transition-all duration-300 bg-white/60 focus:bg-white"
+                      className="w-full pl-12 pr-4 py-4 border border-gray-200 rounded-2xl group-hover:border-emerald-300 focus:ring-2 focus:ring-emerald-400 focus:border-transparent transition-all duration-300 bg-white/60 focus:bg-white placeholder:text-gray-500 placeholder:font-normal"
                       required
                     />
                     <div className="absolute inset-0 border border-emerald-400/0 group-hover:border-emerald-400/10 rounded-2xl pointer-events-none transition-colors duration-300"></div>
@@ -1244,7 +1244,7 @@ const HomePage = () => {
                     rows={5}
                     value={formData.message}
                     onChange={(e) => setFormData({...formData, message: e.target.value})}
-                    className="w-full pl-12 pr-4 py-4 border border-gray-200 rounded-2xl group-hover:border-emerald-300 focus:ring-2 focus:ring-emerald-400 focus:border-transparent transition-all duration-300 bg-white/60 focus:bg-white resize-none"
+                    className="w-full pl-12 pr-4 py-4 border border-gray-200 rounded-2xl group-hover:border-emerald-300 focus:ring-2 focus:ring-emerald-400 focus:border-transparent transition-all duration-300 bg-white/60 focus:bg-white resize-none placeholder:text-gray-500 placeholder:font-normal"
                     required
                   ></textarea>
                   <div className="absolute inset-0 border border-emerald-400/0 group-hover:border-emerald-400/10 rounded-2xl pointer-events-none transition-colors duration-300"></div>
